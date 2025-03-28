@@ -28,7 +28,7 @@ export default function AddUser() {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["users"] });
       alert("User added successfully!");
-      router.push("/"); // Redirect to login page after success
+      router.push("/");
     },
     onError: (error) => {
       alert(error.message);

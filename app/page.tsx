@@ -2,7 +2,7 @@
 import { redirect } from "next/navigation";
 import Link from "next/link";
 
-export const dynamic = "force-dynamic"; // Always fetch fresh data
+export const dynamic = "force-dynamic"; 
 
 const fetchAirlines = async (search: string) => {
   const response = await fetch("https://freetestapi.com/api/v1/airlines", {
@@ -15,7 +15,7 @@ const fetchAirlines = async (search: string) => {
 
   const airlines = await response.json();
 
-  // Filter airlines based on both city name and airport code
+  
   if (search) {
     return airlines.filter((airline: any) =>
       airline.destinations.some(
@@ -131,7 +131,7 @@ export default function LoginPage() {
         u.username === loginData.username && u.password === loginData.password
     );
     if (user) {
-      router.push("/flights"); // Redirect to Flights page
+      router.push("/flights");
     } else {
       alert("Invalid credentials");
     }

@@ -36,7 +36,6 @@ export default function Flights() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredFlights, setFilteredFlights] = useState<Airline[]>([]);
 
-  // Update filteredFlights when flights are available
   useEffect(() => {
     if (flights && Array.isArray(flights)) {
       setFilteredFlights(flights);
@@ -74,14 +73,12 @@ export default function Flights() {
     setFilteredFlights(filtered);
   };
 
-  // Function to open the modal
   const openModal = (airline: Airline, destination: Destination) => {
     setSelectedFlight({ airline, destination });
     setTicketCount(1);
     setShowModal(true);
   };
 
-  // Function to book tickets
   const handleBookTickets = () => {
     if (selectedFlight && ticketCount > 0) {
       bookTicket.mutate({
@@ -89,14 +86,13 @@ export default function Flights() {
         tickets: ticketCount,
       });
 
-      // Close the modal after booking
       setShowModal(false);
     }
   };
 
   return (
     <div className="min-h-screen bg-black text-white p-5">
-      {/* Top Bar */}
+      {/* top bar */}
       <div className="flex justify-between items-center mb-6 bg-black">
         <h1 className="text-3xl font-bold bg-black">Flight Information</h1>
         <button
@@ -107,7 +103,7 @@ export default function Flights() {
         </button>
       </div>
 
-      {/* Search Bar */}
+      {/* search bar */}
       <div className="flex gap-2 mb-6">
         <input
           type="text"
@@ -124,7 +120,7 @@ export default function Flights() {
         </button>
       </div>
 
-      {/* Flight List */}
+      {/* flight list */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 bg-black">
         {filteredFlights.length > 0 ? (
           filteredFlights.map((airline: Airline) => (
@@ -169,7 +165,7 @@ export default function Flights() {
         )}
       </div>
 
-      {/* Modal with Framer Motion */}
+      {/* modal */}
       <AnimatePresence>
         {showModal && selectedFlight && (
           <motion.div

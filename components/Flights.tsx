@@ -28,14 +28,14 @@ export default function Flights() {
   const [selectedFlight, setSelectedFlight] = useState<Destination | null>(
     null
   );
-  const [ticketCount, setTicketCount] = useState(1); // Default 1 ticket
+  const [ticketCount, setTicketCount] = useState(1);
 
   if (isLoading) return <p>Loading flights...</p>;
   if (error) return <p>Error loading flights.</p>;
 
   const openModal = (flight: Destination) => {
     setSelectedFlight(flight);
-    setTicketCount(1); // Reset ticket count
+    setTicketCount(1);
     setShowModal(true);
   };
 
@@ -45,7 +45,7 @@ export default function Flights() {
         flightId: selectedFlight.flightId,
         tickets: ticketCount,
       });
-      setShowModal(false); // Close modal after booking
+      setShowModal(false);
     }
   };
 

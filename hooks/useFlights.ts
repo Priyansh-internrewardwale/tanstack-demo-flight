@@ -6,7 +6,7 @@ const API_URL = "/api/flights";
 export const useFlights = () => {
   const queryClient = useQueryClient();
 
-  // Fetch flights (GET)
+  // GET
   const { data: flights, isLoading, error } = useQuery({
     queryKey: ["flights"],
     queryFn: async () => {
@@ -16,7 +16,7 @@ export const useFlights = () => {
     },
   });
 
-  // Book a ticket (PUT)
+  // PUT
   const bookTicket = useMutation({
     mutationFn: async ({ flightId, tickets }: { flightId: string; tickets: number }) => {
       const res = await fetch("/api/flights", {
@@ -30,8 +30,8 @@ export const useFlights = () => {
       return res.json();
     },
     onSuccess: (data) => {
-      alert(data.message); // Show success message
-      queryClient.invalidateQueries({ queryKey: ["flights"] }); // Refresh data
+      alert(data.message);
+      queryClient.invalidateQueries({ queryKey: ["flights"] }); 
     },
     onError: () => {
       alert("Error booking tickets. Please try again.");
