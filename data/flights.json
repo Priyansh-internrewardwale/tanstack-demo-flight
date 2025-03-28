@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "name": "Lufthansa",
+    "code": "LH",
+    "country": "Germany",
+    "founded": "1953",
+    "fleet_size": "300+",
+    "headquarters": "Cologne, Germany",
+    "website": "https://www.lufthansa.com/",
+    "destinations": [
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "LH-1",
+        "availableTickets": 2
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "LH-2",
+        "availableTickets": 6
+      },
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "LH-3",
+        "availableTickets": 6
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Emirates",
+    "code": "EK",
+    "country": "United Arab Emirates",
+    "founded": "1985",
+    "fleet_size": "250+",
+    "headquarters": "Dubai, UAE",
+    "website": "https://www.emirates.com/",
+    "destinations": [
+      {
+        "name": "Dubai",
+        "code": "DXB",
+        "flightId": "EK-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "EK-2",
+        "availableTickets": 0
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "EK-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "American Airlines",
+    "code": "AA",
+    "country": "United States",
+    "founded": "1930",
+    "fleet_size": "800+",
+    "headquarters": "Fort Worth, Texas, USA",
+    "website": "https://www.aa.com/",
+    "destinations": [
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "AA-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Chicago",
+        "code": "ORD",
+        "flightId": "AA-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "Miami",
+        "code": "MIA",
+        "flightId": "AA-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "British Airways",
+    "code": "BA",
+    "country": "United Kingdom",
+    "founded": "1974",
+    "fleet_size": "280+",
+    "headquarters": "London, UK",
+    "website": "https://www.britishairways.com/",
+    "destinations": [
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "BA-1",
+        "availableTickets": 1
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "BA-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "Hong Kong",
+        "code": "HKG",
+        "flightId": "BA-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Air France",
+    "code": "AF",
+    "country": "France",
+    "founded": "1933",
+    "fleet_size": "220+",
+    "headquarters": "Roissy-en-France, France",
+    "website": "https://www.airfrance.com/",
+    "destinations": [
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "AF-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "AF-2",
+        "availableTickets": 6
+      },
+      {
+        "name": "Tokyo",
+        "code": "NRT",
+        "flightId": "AF-3",
+        "availableTickets": 4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Qatar Airways",
+    "code": "QR",
+    "country": "Qatar",
+    "founded": "1993",
+    "fleet_size": "250+",
+    "headquarters": "Doha, Qatar",
+    "website": "https://www.qatarairways.com/",
+    "destinations": [
+      {
+        "name": "Doha",
+        "code": "DOH",
+        "flightId": "QR-1",
+        "availableTickets": 2
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "QR-2",
+        "availableTickets": 10
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "QR-3",
+        "availableTickets": 9
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Singapore Airlines",
+    "code": "SQ",
+    "country": "Singapore",
+    "founded": "1947",
+    "fleet_size": "130+",
+    "headquarters": "Singapore",
+    "website": "https://www.singaporeair.com/",
+    "destinations": [
+      {
+        "name": "Singapore",
+        "code": "SIN",
+        "flightId": "SQ-1",
+        "availableTickets": 0
+      },
+      {
+        "name": "Tokyo",
+        "code": "NRT",
+        "flightId": "SQ-2",
+        "availableTickets": 6
+      },
+      {
+        "name": "Sydney",
+        "code": "SYD",
+        "flightId": "SQ-3",
+        "availableTickets": 9
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cathay Pacific",
+    "code": "CX",
+    "country": "Hong Kong",
+    "founded": "1946",
+    "fleet_size": "150+",
+    "headquarters": "Hong Kong",
+    "website": "https://www.cathaypacific.com/",
+    "destinations": [
+      {
+        "name": "Hong Kong",
+        "code": "HKG",
+        "flightId": "CX-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "CX-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "CX-3",
+        "availableTickets": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Turkish Airlines",
+    "code": "TK",
+    "country": "Turkey",
+    "founded": "1933",
+    "fleet_size": "350+",
+    "headquarters": "Istanbul, Turkey",
+    "website": "https://www.turkishairlines.com/",
+    "destinations": [
+      {
+        "name": "Istanbul",
+        "code": "IST",
+        "flightId": "TK-1",
+        "availableTickets": 9
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "TK-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "TK-3",
+        "availableTickets": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Delta Air Lines",
+    "code": "DL",
+    "country": "United States",
+    "founded": "1924",
+    "fleet_size": "800+",
+    "headquarters": "Atlanta, Georgia, USA",
+    "website": "https://www.delta.com/",
+    "destinations": [
+      {
+        "name": "Atlanta",
+        "code": "ATL",
+        "flightId": "DL-1",
+        "availableTickets": 10
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "DL-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "DL-3",
+        "availableTickets": 9
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ANA All Nippon Airways",
+    "code": "NH",
+    "country": "Japan",
+    "founded": "1952",
+    "fleet_size": "250+",
+    "headquarters": "Tokyo, Japan",
+    "website": "https://www.ana.co.jp/en/us/",
+    "destinations": [
+      {
+        "name": "Tokyo",
+        "code": "HND",
+        "flightId": "NH-1",
+        "availableTickets": 1
+      },
+      {
+        "name": "Osaka",
+        "code": "KIX",
+        "flightId": "NH-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "NH-3",
+        "availableTickets": 8
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Etihad Airways",
+    "code": "EY",
+    "country": "United Arab Emirates",
+    "founded": "2003",
+    "fleet_size": "100+",
+    "headquarters": "Abu Dhabi, UAE",
+    "website": "https://www.etihad.com/",
+    "destinations": [
+      {
+        "name": "Abu Dhabi",
+        "code": "AUH",
+        "flightId": "EY-1",
+        "availableTickets": 3
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "EY-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "EY-3",
+        "availableTickets": 6
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Qantas",
+    "code": "QF",
+    "country": "Australia",
+    "founded": "1920",
+    "fleet_size": "130+",
+    "headquarters": "Sydney, Australia",
+    "website": "https://www.qantas.com/",
+    "destinations": [
+      {
+        "name": "Sydney",
+        "code": "SYD",
+        "flightId": "QF-1",
+        "availableTickets": 3
+      },
+      {
+        "name": "Melbourne",
+        "code": "MEL",
+        "flightId": "QF-2",
+        "availableTickets": 10
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "QF-3",
+        "availableTickets": 9
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "KLM Royal Dutch Airlines",
+    "code": "KL",
+    "country": "Netherlands",
+    "founded": "1919",
+    "fleet_size": "120+",
+    "headquarters": "Amsterdam, Netherlands",
+    "website": "https://www.klm.com/",
+    "destinations": [
+      {
+        "name": "Amsterdam",
+        "code": "AMS",
+        "flightId": "KL-1",
+        "availableTickets": 9
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "KL-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "KL-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Air Canada",
+    "code": "AC",
+    "country": "Canada",
+    "founded": "1937",
+    "fleet_size": "180+",
+    "headquarters": "Montreal, Canada",
+    "website": "https://www.aircanada.com/",
+    "destinations": [
+      {
+        "name": "Toronto",
+        "code": "YYZ",
+        "flightId": "AC-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Vancouver",
+        "code": "YVR",
+        "flightId": "AC-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "AC-3",
+        "availableTickets": 10
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "EVA Air",
+    "code": "BR",
+    "country": "Taiwan",
+    "founded": "1989",
+    "fleet_size": "80+",
+    "headquarters": "Taipei, Taiwan",
+    "website": "https://www.evaair.com/",
+    "destinations": [
+      {
+        "name": "Taipei",
+        "code": "TPE",
+        "flightId": "BR-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "BR-2",
+        "availableTickets": 5
+      },
+      {
+        "name": "Tokyo",
+        "code": "NRT",
+        "flightId": "BR-3",
+        "availableTickets": 10
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Air China",
+    "code": "CA",
+    "country": "China",
+    "founded": "1988",
+    "fleet_size": "400+",
+    "headquarters": "Beijing, China",
+    "website": "https://www.airchina.com/",
+    "destinations": [
+      {
+        "name": "Beijing",
+        "code": "PEK",
+        "flightId": "CA-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "Shanghai",
+        "code": "PVG",
+        "flightId": "CA-2",
+        "availableTickets": 5
+      },
+      {
+        "name": "Hong Kong",
+        "code": "HKG",
+        "flightId": "CA-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Aeroflot",
+    "code": "SU",
+    "country": "Russia",
+    "founded": "1923",
+    "fleet_size": "200+",
+    "headquarters": "Moscow, Russia",
+    "website": "https://www.aeroflot.ru/",
+    "destinations": [
+      {
+        "name": "Moscow",
+        "code": "SVO",
+        "flightId": "SU-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Saint Petersburg",
+        "code": "LED",
+        "flightId": "SU-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "SU-3",
+        "availableTickets": 4
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Air New Zealand",
+    "code": "NZ",
+    "country": "New Zealand",
+    "founded": "1940",
+    "fleet_size": "60+",
+    "headquarters": "Auckland, New Zealand",
+    "website": "https://www.airnewzealand.com/",
+    "destinations": [
+      {
+        "name": "Auckland",
+        "code": "AKL",
+        "flightId": "NZ-1",
+        "availableTickets": 9
+      },
+      {
+        "name": "Wellington",
+        "code": "WLG",
+        "flightId": "NZ-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "Sydney",
+        "code": "SYD",
+        "flightId": "NZ-3",
+        "availableTickets": 8
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "SAS Scandinavian Airlines",
+    "code": "SK",
+    "country": "Sweden",
+    "founded": "1946",
+    "fleet_size": "150+",
+    "headquarters": "Stockholm, Sweden",
+    "website": "https://www.flysas.com/",
+    "destinations": [
+      {
+        "name": "Stockholm",
+        "code": "ARN",
+        "flightId": "SK-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "Copenhagen",
+        "code": "CPH",
+        "flightId": "SK-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "Oslo",
+        "code": "OSL",
+        "flightId": "SK-3",
+        "availableTickets": 3
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "South African Airways",
+    "code": "SA",
+    "country": "South Africa",
+    "founded": "1934",
+    "fleet_size": "40+",
+    "headquarters": "Johannesburg, South Africa",
+    "website": "https://www.flysaa.com/",
+    "destinations": [
+      {
+        "name": "Johannesburg",
+        "code": "JNB",
+        "flightId": "SA-1",
+        "availableTickets": 8
+      },
+      {
+        "name": "Cape Town",
+        "code": "CPT",
+        "flightId": "SA-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "SA-3",
+        "availableTickets": 6
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Air Asia",
+    "code": "AK",
+    "country": "Malaysia",
+    "founded": "1993",
+    "fleet_size": "250+",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "website": "https://www.airasia.com/",
+    "destinations": [
+      {
+        "name": "Kuala Lumpur",
+        "code": "KUL",
+        "flightId": "AK-1",
+        "availableTickets": 10
+      },
+      {
+        "name": "Bangkok",
+        "code": "BKK",
+        "flightId": "AK-2",
+        "availableTickets": 9
+      },
+      {
+        "name": "Singapore",
+        "code": "SIN",
+        "flightId": "AK-3",
+        "availableTickets": 10
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "EgyptAir",
+    "code": "MS",
+    "country": "Egypt",
+    "founded": "1932",
+    "fleet_size": "60+",
+    "headquarters": "Cairo, Egypt",
+    "website": "https://www.egyptair.com/",
+    "destinations": [
+      {
+        "name": "Cairo",
+        "code": "CAI",
+        "flightId": "MS-1",
+        "availableTickets": 8
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "MS-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "MS-3",
+        "availableTickets": 8
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Air India",
+    "code": "AI",
+    "country": "India",
+    "founded": "1932",
+    "fleet_size": "100+",
+    "headquarters": "New Delhi, India",
+    "website": "https://www.airindia.in/",
+    "destinations": [
+      {
+        "name": "New Delhi",
+        "code": "DEL",
+        "flightId": "AI-1",
+        "availableTickets": 0
+      },
+      {
+        "name": "Mumbai",
+        "code": "BOM",
+        "flightId": "AI-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "AI-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Air Baltic",
+    "code": "BT",
+    "country": "Latvia",
+    "founded": "1995",
+    "fleet_size": "30+",
+    "headquarters": "Riga, Latvia",
+    "website": "https://www.airbaltic.com/",
+    "destinations": [
+      {
+        "name": "Riga",
+        "code": "RIX",
+        "flightId": "BT-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Tallinn",
+        "code": "TLL",
+        "flightId": "BT-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "Vilnius",
+        "code": "VNO",
+        "flightId": "BT-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Norwegian Air Shuttle",
+    "code": "DY",
+    "country": "Norway",
+    "founded": "1993",
+    "fleet_size": "160+",
+    "headquarters": "Oslo, Norway",
+    "website": "https://www.norwegian.com/",
+    "destinations": [
+      {
+        "name": "Oslo",
+        "code": "OSL",
+        "flightId": "DY-1",
+        "availableTickets": 1
+      },
+      {
+        "name": "Copenhagen",
+        "code": "CPH",
+        "flightId": "DY-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Stockholm",
+        "code": "ARN",
+        "flightId": "DY-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Icelandair",
+    "code": "FI",
+    "country": "Iceland",
+    "founded": "1937",
+    "fleet_size": "30+",
+    "headquarters": "Reykjavik, Iceland",
+    "website": "https://www.icelandair.com/",
+    "destinations": [
+      {
+        "name": "Reykjavik",
+        "code": "KEF",
+        "flightId": "FI-1",
+        "availableTickets": 2
+      },
+      {
+        "name": "Copenhagen",
+        "code": "CPH",
+        "flightId": "FI-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "Amsterdam",
+        "code": "AMS",
+        "flightId": "FI-3",
+        "availableTickets": 10
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Avianca",
+    "code": "AV",
+    "country": "Colombia",
+    "founded": "1919",
+    "fleet_size": "100+",
+    "headquarters": "Bogota, Colombia",
+    "website": "https://www.avianca.com/",
+    "destinations": [
+      {
+        "name": "Bogota",
+        "code": "BOG",
+        "flightId": "AV-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "Medellin",
+        "code": "MDE",
+        "flightId": "AV-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "AV-3",
+        "availableTickets": 1
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Air Astana",
+    "code": "KC",
+    "country": "Kazakhstan",
+    "founded": "2001",
+    "fleet_size": "30+",
+    "headquarters": "Almaty, Kazakhstan",
+    "website": "https://airastana.com/",
+    "destinations": [
+      {
+        "name": "Almaty",
+        "code": "ALA",
+        "flightId": "KC-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Nur-Sultan",
+        "code": "NQZ",
+        "flightId": "KC-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Istanbul",
+        "code": "IST",
+        "flightId": "KC-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Air Mauritius",
+    "code": "MK",
+    "country": "Mauritius",
+    "founded": "1967",
+    "fleet_size": "10+",
+    "headquarters": "Port Louis, Mauritius",
+    "website": "https://www.airmauritius.com/",
+    "destinations": [
+      {
+        "name": "Port Louis",
+        "code": "MRU",
+        "flightId": "MK-1",
+        "availableTickets": 0
+      },
+      {
+        "name": "Johannesburg",
+        "code": "JNB",
+        "flightId": "MK-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "MK-3",
+        "availableTickets": 6
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Estonian Air",
+    "code": "OV",
+    "country": "Estonia",
+    "founded": "1991",
+    "fleet_size": "5+",
+    "headquarters": "Tallinn, Estonia",
+    "website": "https://www.estonian-air.ee/",
+    "destinations": [
+      {
+        "name": "Tallinn",
+        "code": "TLL",
+        "flightId": "OV-1",
+        "availableTickets": 8
+      },
+      {
+        "name": "Helsinki",
+        "code": "HEL",
+        "flightId": "OV-2",
+        "availableTickets": 3
+      },
+      {
+        "name": "Stockholm",
+        "code": "ARN",
+        "flightId": "OV-3",
+        "availableTickets": 2
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Air Malta",
+    "code": "KM",
+    "country": "Malta",
+    "founded": "1973",
+    "fleet_size": "10+",
+    "headquarters": "Luqa, Malta",
+    "website": "https://www.airmalta.com/",
+    "destinations": [
+      {
+        "name": "Luqa",
+        "code": "MLA",
+        "flightId": "KM-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Rome",
+        "code": "FCO",
+        "flightId": "KM-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "London",
+        "code": "LGW",
+        "flightId": "KM-3",
+        "availableTickets": 4
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Air Tahiti Nui",
+    "code": "TN",
+    "country": "French Polynesia",
+    "founded": "1996",
+    "fleet_size": "5+",
+    "headquarters": "Papeete, French Polynesia",
+    "website": "https://www.airtahitinui.com/",
+    "destinations": [
+      {
+        "name": "Papeete",
+        "code": "PPT",
+        "flightId": "TN-1",
+        "availableTickets": 8
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "TN-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "Auckland",
+        "code": "AKL",
+        "flightId": "TN-3",
+        "availableTickets": 9
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Allegiant Air",
+    "code": "G4",
+    "country": "United States",
+    "founded": "1997",
+    "fleet_size": "100+",
+    "headquarters": "Las Vegas, Nevada, USA",
+    "website": "https://www.allegiantair.com/",
+    "destinations": [
+      {
+        "name": "Las Vegas",
+        "code": "LAS",
+        "flightId": "G4-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "Orlando",
+        "code": "SFB",
+        "flightId": "G4-2",
+        "availableTickets": 0
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "G4-3",
+        "availableTickets": 10
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Royal Jordanian",
+    "code": "RJ",
+    "country": "Jordan",
+    "founded": "1963",
+    "fleet_size": "25+",
+    "headquarters": "Amman, Jordan",
+    "website": "https://www.rj.com/",
+    "destinations": [
+      {
+        "name": "Amman",
+        "code": "AMM",
+        "flightId": "RJ-1",
+        "availableTickets": 2
+      },
+      {
+        "name": "Cairo",
+        "code": "CAI",
+        "flightId": "RJ-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "RJ-3",
+        "availableTickets": 3
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Air Serbia",
+    "code": "JU",
+    "country": "Serbia",
+    "founded": "1927",
+    "fleet_size": "20+",
+    "headquarters": "Belgrade, Serbia",
+    "website": "https://www.airserbia.com/",
+    "destinations": [
+      {
+        "name": "Belgrade",
+        "code": "BEG",
+        "flightId": "JU-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Vienna",
+        "code": "VIE",
+        "flightId": "JU-2",
+        "availableTickets": 9
+      },
+      {
+        "name": "Zurich",
+        "code": "ZRH",
+        "flightId": "JU-3",
+        "availableTickets": 6
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Garuda Indonesia",
+    "code": "GA",
+    "country": "Indonesia",
+    "founded": "1949",
+    "fleet_size": "140+",
+    "headquarters": "Jakarta, Indonesia",
+    "website": "https://www.garuda-indonesia.com/",
+    "destinations": [
+      {
+        "name": "Jakarta",
+        "code": "CGK",
+        "flightId": "GA-1",
+        "availableTickets": 10
+      },
+      {
+        "name": "Bali",
+        "code": "DPS",
+        "flightId": "GA-2",
+        "availableTickets": 10
+      },
+      {
+        "name": "Singapore",
+        "code": "SIN",
+        "flightId": "GA-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Royal Air Maroc",
+    "code": "AT",
+    "country": "Morocco",
+    "founded": "1957",
+    "fleet_size": "60+",
+    "headquarters": "Casablanca, Morocco",
+    "website": "https://www.royalairmaroc.com/",
+    "destinations": [
+      {
+        "name": "Casablanca",
+        "code": "CMN",
+        "flightId": "AT-1",
+        "availableTickets": 9
+      },
+      {
+        "name": "Marrakech",
+        "code": "RAK",
+        "flightId": "AT-2",
+        "availableTickets": 0
+      },
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "AT-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Finnair",
+    "code": "AY",
+    "country": "Finland",
+    "founded": "1923",
+    "fleet_size": "80+",
+    "headquarters": "Helsinki, Finland",
+    "website": "https://www.finnair.com/",
+    "destinations": [
+      {
+        "name": "Helsinki",
+        "code": "HEL",
+        "flightId": "AY-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Stockholm",
+        "code": "ARN",
+        "flightId": "AY-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "Paris",
+        "code": "CDG",
+        "flightId": "AY-3",
+        "availableTickets": 1
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Ethiopian Airlines",
+    "code": "ET",
+    "country": "Ethiopia",
+    "founded": "1945",
+    "fleet_size": "130+",
+    "headquarters": "Addis Ababa, Ethiopia",
+    "website": "https://www.ethiopianairlines.com/",
+    "destinations": [
+      {
+        "name": "Addis Ababa",
+        "code": "ADD",
+        "flightId": "ET-1",
+        "availableTickets": 2
+      },
+      {
+        "name": "Nairobi",
+        "code": "NBO",
+        "flightId": "ET-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Dubai",
+        "code": "DXB",
+        "flightId": "ET-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "LATAM Airlines",
+    "code": "LA",
+    "country": "Chile",
+    "founded": "2012",
+    "fleet_size": "140+",
+    "headquarters": "Santiago, Chile",
+    "website": "https://www.latam.com/",
+    "destinations": [
+      {
+        "name": "Santiago",
+        "code": "SCL",
+        "flightId": "LA-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Lima",
+        "code": "LIM",
+        "flightId": "LA-2",
+        "availableTickets": 7
+      },
+      {
+        "name": "Miami",
+        "code": "MIA",
+        "flightId": "LA-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Alitalia",
+    "code": "AZ",
+    "country": "Italy",
+    "founded": "1946",
+    "fleet_size": "90+",
+    "headquarters": "Rome, Italy",
+    "website": "https://www.alitalia.com/",
+    "destinations": [
+      {
+        "name": "Rome",
+        "code": "FCO",
+        "flightId": "AZ-1",
+        "availableTickets": 9
+      },
+      {
+        "name": "Milan",
+        "code": "MXP",
+        "flightId": "AZ-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "New York",
+        "code": "JFK",
+        "flightId": "AZ-3",
+        "availableTickets": 4
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Swiss International Air Lines",
+    "code": "LX",
+    "country": "Switzerland",
+    "founded": "2002",
+    "fleet_size": "90+",
+    "headquarters": "Zurich, Switzerland",
+    "website": "https://www.swiss.com/",
+    "destinations": [
+      {
+        "name": "Zurich",
+        "code": "ZRH",
+        "flightId": "LX-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Geneva",
+        "code": "GVA",
+        "flightId": "LX-2",
+        "availableTickets": 8
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "LX-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Royal Brunei Airlines",
+    "code": "BI",
+    "country": "Brunei",
+    "founded": "1974",
+    "fleet_size": "15+",
+    "headquarters": "Bandar Seri Begawan, Brunei",
+    "website": "https://www.flyroyalbrunei.com/",
+    "destinations": [
+      {
+        "name": "Bandar Seri Begawan",
+        "code": "BWN",
+        "flightId": "BI-1",
+        "availableTickets": 7
+      },
+      {
+        "name": "Kuala Lumpur",
+        "code": "KUL",
+        "flightId": "BI-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Singapore",
+        "code": "SIN",
+        "flightId": "BI-3",
+        "availableTickets": 5
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Oman Air",
+    "code": "WY",
+    "country": "Oman",
+    "founded": "1993",
+    "fleet_size": "50+",
+    "headquarters": "Muscat, Oman",
+    "website": "https://www.omanair.com/",
+    "destinations": [
+      {
+        "name": "Muscat",
+        "code": "MCT",
+        "flightId": "WY-1",
+        "availableTickets": 0
+      },
+      {
+        "name": "Dubai",
+        "code": "DXB",
+        "flightId": "WY-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "London",
+        "code": "LHR",
+        "flightId": "WY-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Czech Airlines",
+    "code": "OK",
+    "country": "Czech Republic",
+    "founded": "1923",
+    "fleet_size": "20+",
+    "headquarters": "Prague, Czech Republic",
+    "website": "https://www.czechairlines.com/",
+    "destinations": [
+      {
+        "name": "Prague",
+        "code": "PRG",
+        "flightId": "OK-1",
+        "availableTickets": 7
+      },
+      {
+        "name": "Vienna",
+        "code": "VIE",
+        "flightId": "OK-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Amsterdam",
+        "code": "AMS",
+        "flightId": "OK-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Copa Airlines",
+    "code": "CM",
+    "country": "Panama",
+    "founded": "1947",
+    "fleet_size": "90+",
+    "headquarters": "Panama City, Panama",
+    "website": "https://www.copaair.com/",
+    "destinations": [
+      {
+        "name": "Panama City",
+        "code": "PTY",
+        "flightId": "CM-1",
+        "availableTickets": 4
+      },
+      {
+        "name": "Miami",
+        "code": "MIA",
+        "flightId": "CM-2",
+        "availableTickets": 4
+      },
+      {
+        "name": "Bogota",
+        "code": "BOG",
+        "flightId": "CM-3",
+        "availableTickets": 0
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Fiji Airways",
+    "code": "FJ",
+    "country": "Fiji",
+    "founded": "1951",
+    "fleet_size": "10+",
+    "headquarters": "Nadi, Fiji",
+    "website": "https://www.fijiairways.com/",
+    "destinations": [
+      {
+        "name": "Nadi",
+        "code": "NAN",
+        "flightId": "FJ-1",
+        "availableTickets": 6
+      },
+      {
+        "name": "Sydney",
+        "code": "SYD",
+        "flightId": "FJ-2",
+        "availableTickets": 1
+      },
+      {
+        "name": "Los Angeles",
+        "code": "LAX",
+        "flightId": "FJ-3",
+        "availableTickets": 2
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Saudia",
+    "code": "SV",
+    "country": "Saudi Arabia",
+    "founded": "1945",
+    "fleet_size": "150+",
+    "headquarters": "Jeddah, Saudi Arabia",
+    "website": "https://www.saudia.com/",
+    "destinations": [
+      {
+        "name": "Jeddah",
+        "code": "JED",
+        "flightId": "SV-1",
+        "availableTickets": 7
+      },
+      {
+        "name": "Riyadh",
+        "code": "RUH",
+        "flightId": "SV-2",
+        "availableTickets": 5
+      },
+      {
+        "name": "Dubai",
+        "code": "DXB",
+        "flightId": "SV-3",
+        "availableTickets": 7
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Sichuan Airlines",
+    "code": "3U",
+    "country": "China",
+    "founded": "1986",
+    "fleet_size": "100+",
+    "headquarters": "Chengdu, China",
+    "website": "https://www.sichuanair.com/",
+    "destinations": [
+      {
+        "name": "Chengdu",
+        "code": "CTU",
+        "flightId": "3U-1",
+        "availableTickets": 5
+      },
+      {
+        "name": "Beijing",
+        "code": "PEK",
+        "flightId": "3U-2",
+        "availableTickets": 0
+      },
+      {
+        "name": "Shanghai",
+        "code": "PVG",
+        "flightId": "3U-3",
+        "availableTickets": 8
+      }
+    ]
+  }
+]
